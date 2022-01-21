@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Work Sans', 'Karla',
+    'Lato' sans-serif;
+}
+
+:root {
+  --color-primary: hsl(220, 100%, 50%);
+  --color-primary-light: hsl(220, 100%, 70%);
+  --color-primary-dark: hsl(220, 100%, 30%);
+}
+
+div[role='button'] {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  cursor: pointer;
+}
+
+div,
+section,
+article {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(220, 100%, 95%);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
